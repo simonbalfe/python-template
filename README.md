@@ -7,17 +7,9 @@ uv sync
 python -m src
 ```
 
-# Features
+# Tooling
 
 - uv
-```
-uv sync # install packages in our toml
-```
-- ruff, format / linter
-```
-ruff format .
-```
-- mypy, static type checks
-```bash
-mypy . 
-```
+- mypy
+- ruff
+
