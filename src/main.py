@@ -7,6 +7,9 @@ class Config(BaseModel):
     api_key: str
 
 
+def my_func(x: int) -> str:
+    return 1
+
 def main():
     load_dotenv()
     config = Config(
