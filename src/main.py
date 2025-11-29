@@ -9,6 +9,7 @@ class Config(BaseModel):
 
 def main():
     load_dotenv()
+
     config = Config(
         api_key=os.getenv("API_KEY", "no .env file found with API_KEY"),
     )
