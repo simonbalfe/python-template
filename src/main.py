@@ -11,7 +11,7 @@ def main():
     load_dotenv()
 
     config = Config(
-        api_key=os.getenv("API_KEY", "no .env file found with API_KEY"),
+        api_key=os.getenv("API_KEY", "no  .env file found with API_KEY"),
     )
 
     print(f"API Key: {config.api_key}")
